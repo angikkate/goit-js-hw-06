@@ -19,7 +19,7 @@ const galleryOptionsMarkUp = gallery => {
   
   return `
   <li>
-    <img src="${url}" alt="${alt}">
+    <img src="${url}" alt="${alt}" width="450">
   </li>
   `;
 };
